@@ -1,0 +1,27 @@
+# Ambientes virtuais Python
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache e compilação
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Variáveis de ambiente e segredos locais
+.env
+.env.local
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/
+
+# Docker volumes locais (se gerados fora do docker volume padrão)
+postgres_data/
